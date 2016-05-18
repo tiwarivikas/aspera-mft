@@ -1,0 +1,146 @@
+*:focus
+{
+	outline:none !Important;
+}
+body
+{
+	padding: 25px;
+}
+#uploadArea
+{
+	margin-bottom: 25px;
+}
+.headerRow, .headerRow a, .headerRow a:hover, .headerRow a:focus, .headerRow a:visited
+{
+	font-weight:bold;
+	color: #333333;
+	text-decoration:none;
+}
+.headerRow
+{
+	cursor: pointer;
+}
+.type-col
+{
+	width: 7%;
+	text-align:center;
+}
+.name-col
+{
+	width: 55%;
+}
+.size-col
+{
+	width: 10%;
+}
+.mod-col
+{
+	width: 25%;
+	white-space:nowrap;
+}
+.act-col
+{
+	width: 3%;
+}
+.page-title
+{
+	margin-bottom: 20px;
+	margin-top:0;
+}
+#searchBtn
+{
+	min-width:100px;
+}
+#log-data
+{
+	text-align:right;
+}
+
+#currentDir
+{
+	font-weight:bold;
+	font-size:18px;
+}
+#sortIcon
+{
+	float: right;
+}
+
+.sort-icon
+{
+	margin-left: 2px;
+	display:none;
+}
+
+.sort-icon.sortFirst
+{
+	display:inline !Important;
+}
+
+.sort-icon.sortSecond
+{
+	display:inline !Important;
+}
+
+.sort-icon.sortSecond:before
+{
+	content: "\e156" !Important;
+}
+
+.progress-td
+{
+	background-color: #DFF2BF;
+	-webkit-transition: width .6s ease;
+	-o-transition: width .6s ease;
+	transition: width .6s ease;
+}
+.progressMessage {
+	color: #999;
+	margin-left: 15px;
+}
+
+#backDiv
+{
+	display:inline-block;
+	width:0;
+	margin-right:20px;
+	overflow:hidden;
+}
+
+#backButton
+{
+	white-space:nowrap;
+}
+
+#pageMenuButton
+{
+	position:relative;
+	float:right;
+}
+
+#pageMenuButton a
+{
+	color: #333;
+}
+.searchArea
+{
+	position: relative;
+}
+#clearSearch
+{
+	position: absolute;
+	top: 1px;
+	right: 7px;
+	font-size: 25px;
+	color: #ccc;
+	display:none;
+}
+
+/* Since this version is responsive, we remove the date when on mobile to ensure it looks good on the small screen */
+@media screen and (max-width: 700px) {
+	
+	.mod-col
+	{
+		display:none;
+	}
+}

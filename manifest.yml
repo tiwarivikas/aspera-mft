@@ -1,0 +1,8 @@
+applications:
+- path: out/artifacts/HelloWorld3_war/HelloWorld3_war.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aspera-mft-vtiwari4
+  host: mft-demo
+  disk_quota: 1024M
