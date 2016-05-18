@@ -1,37 +1,29 @@
 package in.cloudevangelist;
 
-import java.io.BufferedOutputStream;
-import java.io.BufferedWriter;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.bind.DatatypeConverter;
+import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
-@WebServlet("/aspera")
-public class NodeConnect extends HttpServlet {
+@WebServlet("/aspera-local")
+public class NodeConnectLocal extends HttpServlet {
 
     //Global Variables
-    private static final String NODE_SERVER = "demo.asperasoft.com";
+/*    private static final String NODE_SERVER = "demo.asperasoft.com";
     private static final int NODE_SERVER_PORT = 9091;
     private static final String NODE_SERVER_USER = "asperaweb";
     private static final String NODE_SERVER_PASS = "demoaspera";
-    private static final String directory = "/Upload/test";
+    private static final String directory = "/Upload/test";*/
 
-/*    private static final String NODE_SERVER = "aspera.local";
+    private static final String NODE_SERVER = "aspera.local";
     private static final int NODE_SERVER_PORT = 9091;
     private static final String NODE_SERVER_USER = "aspera_user_1";
     private static final String NODE_SERVER_PASS = "pwd1";
-    private static final String directory = "/";*/
+    private static final String directory = "/test";
 
     private static final String allowedConnections = "*"; //When using different Java Port specify CORS support.  Use * for ALL [not recommended]
 

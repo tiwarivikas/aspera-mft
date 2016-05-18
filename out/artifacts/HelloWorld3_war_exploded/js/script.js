@@ -3,9 +3,13 @@
 //******************************************************
 //nodeInterpreter is location of server side web application
 //It is used for all AJAX calls
-var nodeInterpreter = "http://mft-demo.mybluemix.net/aspera";
-//var nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera";
 
+var REMOTE_USER = "asperaweb";
+var REMOTE_PASSWORD = "demoaspera";
+/*var REMOTE_USER = "aspera_user_1";
+var REMOTE_PASSWORD = "Object00";*/
+//var nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera";
+var nodeInterpreter = "http://mft-demo.mybluemix.net/aspera";
 //******************************************************
 //Functions for handling Node requests
 //******************************************************
@@ -260,8 +264,10 @@ var handleDownloadCallback = function (caller, spec, asperaWeb, random)
     var transferSpecArray = JSON.parse(spec);
     var transferSpec = transferSpecArray.transfer_specs[0].transfer_spec;
     //Add token authentication tag to JSON since is it not returned with transferSpec.
-    transferSpec.authentication = "token";
-    transferSpec.remote_user = "aspera";  //*************** Vikas: This has to be mapped to backend user ********************
+    transferSpec.authentication = "password";
+    transferSpec.remote_user = REMOTE_USER;  //*************** Vikas: This has to be mapped to backend user ********************
+   // transferSpec.username = "asperaweb";
+    transferSpec.remote_password = REMOTE_PASSWORD;
     asperaWeb.startTransfer(transferSpec, connectSettings);
 }
 
@@ -339,8 +345,9 @@ var handleUploadCallback = function (caller, spec, asperaWeb, random)
     //Start Upload using Connect
     var transferSpecArray = JSON.parse(spec);
     var transferSpec = transferSpecArray.transfer_specs[0].transfer_spec;
-    transferSpec.authentication = "token";
-    transferSpec.remote_user = "aspera";  //*************** Vikas: This has to be mapped to backend user ********************
+    transferSpec.authentication = "password";
+    transferSpec.remote_user = REMOTE_USER;  //*************** Vikas: This has to be mapped to backend user ********************
+    transferSpec.remote_password = REMOTE_PASSWORD;
 
     //Show Select File dialog box and loop through each file to add it to path array.
     asperaWeb.showSelectFileDialog({success: function (pathArray) {

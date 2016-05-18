@@ -4,12 +4,12 @@
 //nodeInterpreter is location of server side web application
 //It is used for all AJAX calls
 
-var REMOTE_USER = "asperaweb";
-var REMOTE_PASSWORD = "demoaspera";
-/*var REMOTE_USER = "aspera_user_1";
-var REMOTE_PASSWORD = "Object00";*/
-//var nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera";
-var nodeInterpreter = "http://mft-demo.mybluemix.net/aspera";
+/*var REMOTE_USER = "asperaweb";
+var REMOTE_PASSWORD = "demoaspera";*/
+var REMOTE_USER = "aspera_user_1";
+var REMOTE_PASSWORD = "Object00";
+var nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera-local";
+//var nodeInterpreter = "http://mft-demo.mybluemix.net/aspera";
 //******************************************************
 //Functions for handling Node requests
 //******************************************************
