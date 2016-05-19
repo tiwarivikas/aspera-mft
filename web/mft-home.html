@@ -15,12 +15,21 @@
 	</head>
 
 	<body>
-		<h2 class="page-title">Managed File Transfer Demo</h2>
+		<table background="images/globe1.jpeg" width="100%"  height="100" border="0">
+			<tbody>
+				<tr>
+					<td><img src="images/Wipro_Logo.png" alt="" width="320" height="121" class="img-rounded" style="width: 130px; margin-left: 20px;"/> &nbsp;</td>
+					<td class="page-header">
+						<font color="#470B0C" size="+3" face="Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif">Managed File Transfer&nbsp;</font>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
 		<!--Upload Area, note IDs match JavaScript for targeting-->
 		<div class="row" id="uploadArea">
 			<div class="col-lg-5">
-				<label for="upload-path">Upload File</label>
+				<h2><label for="upload-path">Upload File(s)</label></h2>
 				<div class="input-group">
 					<input type="text" class="form-control" disabled id="upload-path" placeholder="File Path">
 				  	<span class="input-group-btn">
@@ -33,6 +42,7 @@
 		<div class="row">
 			<div class="col-lg-10">
 				<div class="panel panel-default">
+					<h2><label for="upload-path">Download File(s)</label></h2>
 					<div class="panel-heading" id="currentDir">
 						<div id="backDiv">
 							<a id="backButton" href="#" onclick="return false;"><span class="glyphicon glyphicon-menu-left"></span>Back</a>
