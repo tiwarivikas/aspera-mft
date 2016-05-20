@@ -619,6 +619,8 @@ function qs(key) {
 jQuery("document").ready(function ()
 {
     initCredentials(qs('local'));
+
+    $('#user-top-banner').text('Welcome ' + qs('user'));
 	//Get Starting Directory location to put on page.  This also gets the table data (after startingDirectory finishes)
    	getStartingDirectory();
 

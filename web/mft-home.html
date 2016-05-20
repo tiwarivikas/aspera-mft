@@ -10,7 +10,8 @@
 			<script type="text/javascript" src="https://d3gcli72yxqn2z.cloudfront.net/connect/v4/connectinstaller-4.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/style1.css">
+		<link rel="stylesheet" href="css/mft-style.css">
+		<link rel="icon" type="image/png" href="//ace-common-production-20160513-115801.ng.bluemix.net/cache/33e-4016485332/imgs/favicon.png">
 		<script src="js/script.js"></script>
 	</head>
 
@@ -21,6 +22,15 @@
 				<tr>
 					<td>
 						<img src="images/Wipro_Logo.png" alt="" width="320" height="121" class="img-rounded" style="width: 130px; margin-left: 20px;"/> &nbsp;</td>
+						<div class="action-menu-top">
+							<a href="index.html">Logout</a>
+							<div> | </div>
+							<div id="user-top-banner"></div>
+							<div> | </div>
+							<a href="index.html" target="_blank">BTBT</a>
+							<div> | </div>
+							<a href="index.html" target="_blank">BPOS</a>
+						</div>
 					<td class="page-header">
 						<font color="white" size="+5" face="Arial, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif">Managed File Transfer Solution&nbsp;</font>
 					</td>
@@ -30,7 +40,7 @@
 
 		<!--Upload Area, note IDs match JavaScript for targeting-->
 		<div class="row" id="uploadArea">
-			<div class="col-lg-5">
+			<div class="col-lg-12">
 				<h2><label for="upload-path">Upload File(s)</label></h2>
 				<div class="input-group">
 					<input type="text" class="form-control" disabled id="upload-path" placeholder="File Path">
@@ -42,7 +52,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-10">
+			<div class="col-lg-12">
 				<div class="panel panel-default">
 					<h2><label for="upload-path">Download File(s)</label></h2>
 					<div class="panel-heading" id="currentDir">
@@ -84,5 +94,6 @@
 		</div>
 		<!--Starting directory. On page load get Starting Directory from Node and print in this hidden div-->
 		<div style="display:none;" id="startingDirectory">&nbsp;</div>
+
 	</body>
 </html>

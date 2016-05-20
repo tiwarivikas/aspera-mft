@@ -1,0 +1,20 @@
+.action-menu-top {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.action-menu-top a {
+    float: right;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: underline;
+}
+.action-menu-top div {
+    float: right;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
