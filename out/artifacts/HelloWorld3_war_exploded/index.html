@@ -1,47 +1,55 @@
-<!--Author:
--->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Wipro MFT Demo Login</title>
-    <!-- Custom Theme files -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <!-- Custom Theme files -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Square login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-    <!--Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <!--Google Fonts-->
-</head>
-<body>
-<!--header start here-->
-<div class="login-form">
-    <div class="top-login">
-        <span><img src="images/Wipro_Logo.svg.png" alt=""/></span>
-    </div>
-    <h1>Login</h1>
-    <div class="login-top">
-        <form action="mft-home.html">
-            <div class="login-ic">
-                <i ></i>
-                <input type="text"  value="User name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User name';}"/>
-                <div class="clear"> </div>
-            </div>
-            <div class="login-ic">
-                <i class="icon"></i>
-                <input type="password"  value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}"/>
-                <div class="clear"> </div>
-            </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link href="bootstrap/css/signin.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bg1.css" />
 
-            <div class="log-bwn">
-                <input type="submit"  value="Login" >
-            </div>
-        </form>
-    </div>
-    <p class="copy">MFT Login</a></p>
+
+    <title>Login - Managed File Transfer Solution</title>
+
+</head>
+<body onload="noBack();" onunload="">
+<h2 class="page-header" align="center" style="font-family: calibri">
+
+    <img alt="Wipro" src="images/logo-xs.jpg" class="img-circle"><B>
+    Managed File Transfer Solution</B>
+
+</h2>
+
+<div class="container">
+
+    <form class="form-signin" role="form" method="post" action="login.action">
+        <h3 class="form-signin-heading">Please sign in</h3>
+
+
+        <input type="text" class="form-control" placeholder="demouser1" required autofocus name="user" />
+        <input type="password" class="form-control" placeholder="passw0rd" required name="passwd" id="passwd" />
+        <input type="checkbox" name="localServer" id="localServer" value="localServer">Local Server<br>
+        <br />
+        <button class="btn btn-lg btn-primary btn-block" type="button" onclick="submitForm()">Sign in</button>
+        <br/><br/>
+        * Local Users: <br/>
+        <a href="#" onclick="setUser('demouser1')">demouser1/passw0rd</a>, <a href="#" onclick="setUser('demouser2')">demouser2/passw0rd</a>
+
+    </form>
+
+
+
 </div>
-<!--header start here-->
 </body>
+<script src="js/login.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 </html>

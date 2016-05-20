@@ -21,9 +21,9 @@ public class NodeConnectLocal extends HttpServlet {
 
     private static final String NODE_SERVER = "aspera.local";
     private static final int NODE_SERVER_PORT = 9091;
-    private static final String NODE_SERVER_USER = "aspera_user_1";
-    private static final String NODE_SERVER_PASS = "pwd1";
-    private static final String directory = "/test";
+    private String NODE_SERVER_USER = "demouser1";
+    private String NODE_SERVER_PASS = "passw0rd";
+    private static final String directory = "/Documents";
 
     private static final String allowedConnections = "*"; //When using different Java Port specify CORS support.  Use * for ALL [not recommended]
 
@@ -31,6 +31,10 @@ public class NodeConnectLocal extends HttpServlet {
     //Get POST Data
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
+        if(request.getParameter("REMOTE_USER") != null) {
+            NODE_SERVER_USER = request.getParameter("REMOTE_USER");
+            NODE_SERVER_PASS = request.getParameter("REMOTE_PASSWORD");
+        }
         response.addHeader("Access-Control-Allow-Origin", allowedConnections);
         PrintWriter out = response.getWriter();
 
@@ -81,7 +85,7 @@ public class NodeConnectLocal extends HttpServlet {
         }
     }
 
-    public static String makeNodeRequest(String command, String spec) throws IOException
+    public String makeNodeRequest(String command, String spec) throws IOException
     {
         URL url = new URL("http://" + NODE_SERVER + ":" + NODE_SERVER_PORT + "/files/" + command);
         String authStr = NODE_SERVER_USER + ":" + NODE_SERVER_PASS;

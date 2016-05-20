@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7810a6d-7ad9-44b1-bfb7-7b915a9997d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/Wipro_Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/globe1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war/HelloWorld3_war.war" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war/HelloWorld3_war.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/WEB-INF/classes/in/cloudevangelist/NodeConnectLocal.class" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/WEB-INF/classes/in/cloudevangelist/NodeConnectLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MFT-DEMO/in/cloudevangelist/NodeConnectLocal.class" afterPath="$PROJECT_DIR$/out/production/MFT-DEMO/in/cloudevangelist/NodeConnectLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java" afterPath="$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mft-home.html" afterPath="$PROJECT_DIR$/web/mft-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/css/style.css" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/js/script-local.js" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/js/script-local.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/script-local.js" afterPath="$PROJECT_DIR$/web/js/script-local.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/js/script.js" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/script.js" afterPath="$PROJECT_DIR$/web/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\DEV\IntelliJ\Aspera_MFT_v2\web\index.html" afterPath="$PROJECT_DIR$/web/index2.html" />
     </list>
     <ignored path="HelloWorld3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +41,8 @@
       <file leaf-file-name="mft-home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/mft-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5496536">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.47004607">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,11 +51,75 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc;n#submitForm#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bg1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/bg1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state vertical-scroll-proportion="-12.884615">
+              <caret line="38" column="127" selection-start-line="38" selection-start-column="127" selection-end-line="38" selection-end-column="127" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script-local.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/script-local.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeConnectLocal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -56,8 +128,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+            <state vertical-scroll-proportion="-4.339286">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,6 +141,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -96,11 +169,12 @@
         <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/.idea/.name" />
         <option value="$PROJECT_DIR$/src/in/cloudevangelist/NodeConnect.java" />
-        <option value="$PROJECT_DIR$/web/js/script.js" />
         <option value="$PROJECT_DIR$/web/local.html" />
         <option value="$PROJECT_DIR$/web/js/script-local.js" />
         <option value="$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java" />
+        <option value="$PROJECT_DIR$/web/js/script.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/js/login.js" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/mft-home.html" />
       </list>
@@ -149,8 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,7 +273,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASPERA-MFT-DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aspera_MFT_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASPERA-MFT-DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aspera_MFT_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudevangelist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,6 +329,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -246,7 +356,11 @@
       <recent name="D:\DEV\IntelliJ\HelloWorld3\out\production\HelloWorld3\in\cloudevangelist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DEV\IntelliJ\HelloWorld3\src\in\cloudevangelist" />
+      <recent name="D:\DEV\IntelliJ\Aspera_MFT_v2\web\css" />
+      <recent name="D:\DEV\IntelliJ\Aspera_MFT_v2\web\bootstrap\js" />
+      <recent name="D:\DEV\IntelliJ\Aspera_MFT_v2\web\bootstrap\css" />
+      <recent name="D:\DEV\IntelliJ\Aspera_MFT_v2\web" />
+      <recent name="D:\DEV\IntelliJ\Aspera_MFT_v2\web\css\bootstrap" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="in.cloudevangelist" />
@@ -655,7 +769,8 @@
       <workItem from="1463476130877" duration="1819000" />
       <workItem from="1463478259387" duration="1563000" />
       <workItem from="1463480734345" duration="18027000" />
-      <workItem from="1463582021870" duration="4879000" />
+      <workItem from="1463582021870" duration="5437000" />
+      <workItem from="1463662111283" duration="8432000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Local Aspera and Demo Aspera Server versions">
       <created>1463563559510</created>
@@ -675,11 +790,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463582622549</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Banner for Wipro Opportunity">
+      <created>1463637866896</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463637866896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35151000" />
+    <option name="totallyTimeSpent" value="44141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,7 +823,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31920528" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3178808" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40662253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -764,7 +885,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating Local Aspera and Demo Aspera Server versions" />
     <MESSAGE value="Updated Login Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Login Page" />
+    <MESSAGE value="Updated Banner for Wipro Opportunity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Banner for Wipro Opportunity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,8 +921,14 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="WebSphereRunConfigurationType">
@@ -815,6 +943,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/in/cloudevangelist/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -834,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,9 +1009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,9 +1078,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -988,9 +1126,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,9 +1174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,31 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7875">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.448276">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/script-local.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21888413">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -1160,26 +1268,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/web/js/script-local.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/cloudevangelist/NodeConnectLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state vertical-scroll-proportion="-12.884615">
+          <caret line="38" column="127" selection-start-line="38" selection-start-column="127" selection-end-line="38" selection-end-column="127" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc;n#submitForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bg1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.339286">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/mft-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5496536">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.47004607">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

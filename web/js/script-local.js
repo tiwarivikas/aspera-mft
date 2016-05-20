@@ -6,8 +6,8 @@
 
 /*var REMOTE_USER = "asperaweb";
 var REMOTE_PASSWORD = "demoaspera";*/
-var REMOTE_USER = "aspera_user_1";
-var REMOTE_PASSWORD = "Object00";
+var REMOTE_USER = "demouser1";
+var REMOTE_PASSWORD = "passw0rd";
 var nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera-local";
 //var nodeInterpreter = "http://mft-demo.mybluemix.net/aspera";
 //******************************************************

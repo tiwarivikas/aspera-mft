@@ -6,10 +6,19 @@
 
 var REMOTE_USER = "asperaweb";
 var REMOTE_PASSWORD = "demoaspera";
-/*var REMOTE_USER = "aspera_user_1";
-var REMOTE_PASSWORD = "Object00";*/
-//var nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera";
 var nodeInterpreter = "http://mft-demo.mybluemix.net/aspera";
+
+function initCredentials(isLocal){
+    if(isLocal != null && isLocal == "true" && qs('user') == "demouser1" ) {
+        REMOTE_USER = "demouser1";
+        REMOTE_PASSWORD = "passw0rd";
+        nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera-local";
+    }else if(isLocal != null && isLocal == "true" && qs('user') == "demouser2" ) {
+        REMOTE_USER = "demouser2";
+        REMOTE_PASSWORD = "passw0rd";
+        nodeInterpreter = "http://localhost:9080/HelloWorld3_war_exploded/aspera-local";
+    }
+}
 //******************************************************
 //Functions for handling Node requests
 //******************************************************
@@ -38,6 +47,8 @@ function getStartingDirectory()
     jQuery.ajax({
         type: 'POST',
         url: nodeInterpreter,
+        REMOTE_USER: REMOTE_USER,
+        REMOTE_PASSWORD: REMOTE_PASSWORD,
         data: {startingdirectory: "requestDirectory"}
     })
             .done(function (data) {
@@ -73,7 +84,9 @@ function changeDirectory(path)
     jQuery.ajax({
         type: 'POST',
         url: nodeInterpreter,
-        data: {changeDirectory: path}
+        data: {changeDirectory: path,
+            REMOTE_USER: REMOTE_USER,
+            REMOTE_PASSWORD: REMOTE_PASSWORD}
     })
             .done(function (data) {
                  handleFileList(JSON.parse(data), path);
@@ -591,6 +604,12 @@ function clearSearch()
     jQuery("#clearSearch").fadeOut("slow");
 }
 
+function qs(key) {
+    key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx control chars
+    var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+    return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+}
+
 //******************************************************
 //First Run Items
 //This includes functions for initial load of the page
@@ -599,6 +618,7 @@ function clearSearch()
 //Document is ready start application
 jQuery("document").ready(function ()
 {
+    initCredentials(qs('local'));
 	//Get Starting Directory location to put on page.  This also gets the table data (after startingDirectory finishes)
    	getStartingDirectory();
 
