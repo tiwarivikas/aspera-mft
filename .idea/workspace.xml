@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7810a6d-7ad9-44b1-bfb7-7b915a9997d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/mft-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/brushed_alu_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/halftone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/logo-xs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bg1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/downloads.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/downloads.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap/css/signin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war/HelloWorld3_war.war" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war/HelloWorld3_war.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mft-home.html" afterPath="$PROJECT_DIR$/web/mft-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/script.js" afterPath="$PROJECT_DIR$/web/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/css/style.css" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/js/script.js" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorld3_war_exploded/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld3.iws" />
@@ -34,11 +49,23 @@
       <file leaf-file-name="mft-home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/mft-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2148148">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4837963">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5636363">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +191,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aspera_MFT_v2" />
+              <option name="myItemId" value="Aspera_MFT_v3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,87 +220,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aspera_MFT_v2" />
+              <option name="myItemId" value="Aspera_MFT_v3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASPERA-MFT-DEMO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aspera_MFT_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASPERA-MFT-DEMO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aspera_MFT_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASPERA-MFT-DEMO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aspera_MFT_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudevangelist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASPERA-MFT-DEMO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aspera_MFT_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -713,6 +672,7 @@
       <workItem from="1463480734345" duration="18027000" />
       <workItem from="1463582021870" duration="5437000" />
       <workItem from="1463662111283" duration="13365000" />
+      <workItem from="1466011142797" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Local Aspera and Demo Aspera Server versions">
       <created>1463563559510</created>
@@ -748,7 +708,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49074000" />
+    <option name="totallyTimeSpent" value="49752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1211,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.346153">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0220264">
-          <caret line="7" column="138" selection-start-line="7" selection-start-column="138" selection-end-line="7" selection-end-column="138" />
+        <state vertical-scroll-proportion="-2.5636363">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1277,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/mft-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2148148">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4837963">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

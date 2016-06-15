@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aspera Connect Combined Upload/Download Example</title>
+
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+
+    <script src="//d3gcli72yxqn2z.cloudfront.net/connect/v4/connectinstaller-4.min.js"></script>
+    <script src="//d3gcli72yxqn2z.cloudfront.net/connect/v4/asperaweb-4.min.js"></script>
+    <script src="js/downloads.js"></script>
+
+    <link rel="stylesheet" href="css/application.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/easyui.css" type="text/css">
+    <link rel="stylesheet" href="css/icon.css" type="text/css">
+
+</head>
+<body>
+<h1 style="text-align:center;">Aspera Connect Combined Upload/Download Example</h1>
+      <pre>
+      <div id="connect_installer" style="display: none; align:center"></div>
+      <fieldset class="button_group">
+          <legend>Choose transfer operation</legend>
+          <table>
+              <tr style="align:center">
+                  <td>
+                      <input type="submit" id="upload_files_button" name="upload" class="button upload_files_button" value="Upload Files"  data-default="Upload Files" />
+                  </td>
+                  <td>
+                      <input type="submit" id="upload_directory_button" name="upload_directory" class="button upload_directory_button" value="Upload Directories"  data-default="Upload Directories" />
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <input type="submit" id="download_button_200KB" name="download_200KB" class="button download_button_200KB" value="Download File (200KB)"  data-default="Download File (200KB)" />
+                  </td>
+                  <td>
+                      <input type="submit" id="download_button_100MB" name="download" class="button download_button_100MB" value="Download File (100MB)"  data-default="Download File (100MB)" />
+                  </td>
+                  <td>
+                      <input type="submit" id="download_button_500MB" name="download" class="button download_button_500MB" value="Download File (500MB)"  data-default="Download File (500MB)" />
+                  </td>
+              </tr>
+          </table>
+          <span class="upload_auth_checkbox">
+            <!--<input type="checkbox" name="token_authorization" id="cb_token_authorization" value="token_authorization" /><label for="cb_token_authorization">Token Authorization</label-->
+            <input type="checkbox" name="allow_multiple_files" id="cb_allow_multiple_files" value="allow_multiple_files" /><label for="cb_allow_multiple_files">Allow Upload Multiple files</label>
+          </span>
+      </fieldset>
+      <div id="uploads_group" class="uploads_group" style="display: none">
+          <table id="allUploadTransfers" cellspacing="0" class="allTransfers">
+              <caption class="table_caption">UPLOAD TRANSFERS VIEW</caption>
+              <tr class="xfer_header">
+                  <th scope="col" class="nobg">Transfer Progress</th>
+                  <th scope="col" class="nobg">File Name</th>
+                  <th scope="col" class="nobg">Control buttons</th>
+              </tr>
+          </table>
+      </div>
+      <div id="downloads_group" class="downloads_group" style="display: none">
+          <table id="allDownloadTransfers" cellspacing="0" class="allTransfers">
+              <caption class="table_caption">DOWNLOAD TRANSFERS VIEW</caption>
+              <tr class="xfer_header">
+                  <th scope="col" class="nobg">Transfer Progress</th>
+                  <th scope="col" class="nobg">File Name</th>
+                  <th scope="col" class="nobg">Control buttons</th>
+              </tr>
+          </table>
+      </div>
+      <fieldset class="json_group">
+          <legend>JSON Display</legend>
+          <div class="json_container" id="progress_json" style="display: none">
+          </div>
+          <div class="json_container" id="transfer_spec" style="display: none"></div>
+      </fieldset>
+    </pre>
+<script>
+    $(document).ready(function(){
+        $('#cb_token_authorization').on('change', function() {
+            var tokenAuth = $(this).prop('checked');
+            $('#cb_allow_multiple_files').prop('disabled', tokenAuth);
+            $('#cb_allow_multiple_files').prop('checked', false);
+        });
+        initAsperaConnect();
+    });
+</script>
+</body>
+</html>

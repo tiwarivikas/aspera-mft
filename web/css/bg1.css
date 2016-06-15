@@ -1,0 +1,23 @@
+body
+{
+	background-image: url("halftone.png");
+	/* background-image: url("ricepaper_v3.png"); */
+	background-repeat: repeat;
+}
+.sm
+{
+	font-size: 8pt;
+}
+.med
+{
+	font-size: 10pt;
+}
+.description
+{
+	color: #737373;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.description:HOVER {
+	text-decoration: none;
+}
